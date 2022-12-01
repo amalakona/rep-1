@@ -4,9 +4,9 @@ Resources:
   EC2instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0b0dcb5067f052a63 
+      ImageId: ami- 
       InstanceType: t2.micro
-      KeyName: nov2022
+      KeyName: keyname
       SecurityGroupIds: 
          - !Ref WebAppSecurityGroup
       UserData: 
