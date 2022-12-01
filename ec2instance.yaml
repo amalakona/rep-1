@@ -1,9 +1,0 @@
-AWSTemplateFormatVersion: 2010-09-09
-Description: To Create EC2instance from CloudFormation Stack
-Resources:
-  EC2instance:
-    Type: AWS::EC2::Instance
-    Properties:
-      ImageId: ami-0
-      InstanceType: t2.micro
-      KeyName: keyname
